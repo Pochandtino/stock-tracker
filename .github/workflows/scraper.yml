@@ -18,7 +18,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: Run Download Script
         run: python download_vwrp.py
